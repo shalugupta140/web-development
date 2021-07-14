@@ -1,0 +1,108 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    text-align: center;
+}
+/* main container */
+.container{
+    /* height: 800px; */
+    width: 550px;
+    margin: auto;
+    background-color: rgb(229, 239, 243);
+    border: 2px groove blue;
+    margin-top: 10px;
+}
+
+/* subcontainer1 */
+.subcontainer1{
+
+    height: 200px;
+    width: 40%;
+    margin-left: 10px;
+    background-color: rgb(28, 132, 173);
+    border: 2px groove rgb(11, 11, 22);
+    float: left;
+}
+/* subcontainer2 */
+.subcontainer2{
+
+    height: 200px;
+    width: 50%;
+    margin-right: 10px;
+    background-color: rgb(28, 132, 173);
+    border: 2px groove rgb(11, 11, 22);
+    float: right;
+    margin-bottom: 10px;
+}
+
+/*about_main */
+
+.about_main{
+    height: 200px;
+    width: 95%;
+    margin: 10px 10px;
+    background-color: rgb(110, 238, 189);
+    border: 2px groove rgb(11, 11, 22);
+    clear: both;
+}
+
+/* sub_main */
+
+.sub_main{
+
+    height: 100px;
+    width: 95%;
+    margin: 10px 10px;
+    background-color: rgb(217, 236, 132);
+    border: 2px groove rgb(11, 11, 22);
+}
+/* section start */
+
+.section{
+    height: 200px;
+    width: 95%;
+    margin: 10px 10px;
+    background-color: whitesmoke;
+    border: 2px groove rgb(11, 11, 22);
+
+}
+
+.education{
+height: 180px;
+width: 40%;
+margin-left: 10px;
+margin-top: 10px;
+background-color: rgb(28, 132, 173);
+border: 2px groove rgb(11, 11, 22);
+float: left;
+
+}
+.experience{
+    height: 180px;
+    width: 50%;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: rgb(28, 132, 173);
+    border: 2px groove rgb(11, 11, 22);
+    float: right;
+    
+}
+
+.pricing{
+    
+        height: 200px;
+        width: 95%;
+        margin: 10px 10px;
+        background-color: rgb(110, 238, 189);
+        border: 2px groove rgb(11, 11, 22);
+        clear: both;
+}
+.footer{
+    height: 100px;
+    width: 95%;
+    margin: 10px 10px;
+    background-color: rgb(217, 236, 132);
+    border: 2px groove rgb(11, 11, 22);
+}
