@@ -1,0 +1,65 @@
+ body{
+     padding: 0px;
+     margin: 0px;
+ }
+ .container{
+    /* border: 1px solid black; */
+    height: 532px;
+    width: 1265px;
+    margin: auto;
+    overflow: hidden;
+}
+.container h1{
+    text-align: center;
+}
+.slider img{
+    width: 1265px;
+    height: 450px;
+    float: left;
+}
+.slider{
+    /* border: 1px solid rgb(212, 70, 4); */
+    height: 450px;
+    width: 6325px;
+    position: relative;
+    animation-name: sliders;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sliders {
+    0%{
+        left:0px
+    }
+    15%{
+        left:0px
+    }
+    20%{
+        left: -1265px;
+    }
+    35%{
+        left: -1265px;
+    }
+    40%{
+        left: -2530px;
+    }
+    55%{
+        left: -2530px;
+    }
+    60%{
+        left: -3795px;
+    }
+    75%{
+        left: -3795px;
+    }
+    80%{
+        left: -5060px;
+    }
+    95%{
+        left: -5060px;
+    }
+    100%{
+        left: -6325px;
+    }
+}
+
