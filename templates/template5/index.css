@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: white;
+}
+.header{
+    height: 65px;
+    width: 100%;
+    background-color: white;
+    /* border: 1px solid black; */
+
+}
+.nav{
+    height: 65px;
+    width: 100%;
+}
+.nav ul{
+    display: block;
+    list-style: none;
+    height: 65px;
+    line-height: 65px;
+    margin-left: 825px;
+    width: 425px;
+}
+.nav ul li{
+    float: left;
+   
+}
+.nav ul li a{
+    text-decoration: none;
+    padding: 0px 10px;
+    color: #777; 
+}
+.nav ul li a:hover{
+    color: black;
+}
+.active{
+    background-color: #959595;
+    color: white;
+
+}
+.logo a{
+    float: left;
+    font-size: 25px;
+    text-decoration: none;
+    margin-left: 30px;
+    color: #dd845a;
+    height: 65px;
+    line-height: 65px;
+    width: 100px;
+}
+.logo a:hover{
+    color: #f3b594;
+}
+
+.container{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 350px;
+    background-image: url(R.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 350px;
+}
+.container i{
+ font-size: 60px;
+ margin-top: 50px;
+ margin-left: 30px;
+ color: white;
+ padding: 10px;
+
+}
+.container p{
+    font-size: 25px;
+    margin-left: 30px;
+    color: white;
+    padding: 10px;
+}
+.container button{
+    font-size: 15px;
+    margin-left: 40px;
+    margin-top: 15px;
+    color: white;
+    padding: 10px;
+    background-color: orange;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+hr{
+    border: 1px solid black;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+.main-section{
+    width: 100%;
+    height: 900px; 
+}
+.subsection1{
+    width: 100%;
+    height: 140px;  
+    text-align: center;
+}
+.subsection1 h1{
+    color: #dd845a;
+    padding: 10px;
+    font-weight: lighter;
+}
+.subsection1 p{
+    color: gray;
+    font-weight: lighter;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px 50px 0px 50px;
+}
+.subsection2{
+    width: 100%;
+    height: 220px; 
+}
+
+.box1,.box2,.box3{
+    width: 33.33%;
+    height: 220px; 
+    text-align: center;
+
+}
+.box1,.box2{
+    float: left;
+    background-image: url(foods.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 220px;
+}
+.box2{
+    background-image: url(seeds.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 220px;
+
+}
+.box3{
+    float: right;
+    background-image: url(grapes.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 220px;
+}
+.box1 h2,.box2 h2,.box3 h2{
+    margin-top: 75px;
+    color: white;
+    font-size: 35px;
+    font-weight: lighter;
+}
+
+.subsection3{
+    width: 100%;
+    height: 460px; 
+    display: flex;
+    justify-content: space-between;
+}
+.heading h2{
+    text-align: center;
+    color: #dd845a;
+    padding: 10px;
+    font-weight: lighter;
+    font-size: 35px;
+    margin-top: 20px;
+}
+.heading p{
+    color: gray;
+    font-weight: lighter;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px 50px 0px 50px; 
+}
+.subsection3 h2{
+    text-align: center;
+    color: #dd845a;
+    padding: 10px;
+    font-weight: lighter;
+    font-size: 35px;
+}
+.content1{
+    border: 1px solid gray;
+    width: 22.5%;
+    height: 450px;
+    margin-left: 30px;
+    border-radius: 4px;
+}
+.subcontent1 img{
+    margin: 10px;
+    width: 265px;
+    height: 200px;
+}
+.text h2,p{
+    text-align: left;
+}
+.text h2{
+    font-size: 25px;
+   
+
+}
+.text h4{
+    color: rgb(107, 106, 106);
+    margin-left: 10px;
+    font-weight: lighter;
+}
+.price{
+    color: #dd845a;
+    font-size: 18px; 
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 5px;
+}
+.input-group{
+    height: 32px;
+    font-size: 14px;
+    line-height: 32px;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 255px;
+    margin-left: 10px;
+   
+}
+.form-control input{
+    float: left;
+    width: 138px;
+    line-height: 30px;
+    height: 30px;
+    padding-left: 7px;
+    border: none;
+}
+.btn{
+    float: right;
+    height: 32px;
+    line-height: 32px;
+    width: 94px;
+    padding-left: 10px;
+    color: #fff;
+    background-color: orange;
+    border-color: orange;
+}
+
+.service img{
+    border-radius: 50%;
+   margin-left: 330px;
+   margin-top: 30px;
+}
